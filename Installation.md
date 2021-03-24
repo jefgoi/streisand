@@ -79,6 +79,10 @@ sudo yum -y update && sudo yum install -y \
 
         git clone https://github.com/jefgoi/streisand.git && cd streisand
 
+1. Install needed packages:
+
+        sudo apt-get install build-essential python3-pip python3-openssl python3-dev python3-setuptools python-cffi libffi-dev libssl-dev libcurl4-openssl-dev
+
 1. Run the installer for Ansible and its dependencies. The installer will detect missing packages, and print the commands needed to install them. (Ignore the Python 2.7 `DEPRECATION` warning; ignore the warning from python-novaclient that pbr 5.1.3 is incompatible.)
 
        ./util/venv-dependencies.sh ./venv
@@ -98,5 +102,10 @@ sudo yum -y update && sudo yum install -y \
 ## Keep the results!
 
 You should keep a copy of the `generated-docs` directory for the life of the server.
+
+Check message similar to this:
+"Server setup is complete. The `racknerd-eeab58.html` instructions file in the generated-docs folder is ready to give to friends, family members, and fellow activists. Press Enter to continue."
+
+Go to generated-docs folder 
 
 Remember to save your `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub` SSH keys too. You'll need them in case you want to troubleshoot or perform maintenance on your server later.
