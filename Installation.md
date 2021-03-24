@@ -19,7 +19,7 @@ The Streisand builder requires a Linux, macOS, or BSD system.
 
 Complete all of these tasks on your local machine. All of the commands should be run inside a command-line session.
 
-### updage the system ###
+### update the system ###
 Ubuntu:
 ```
 sudo apt-get update
