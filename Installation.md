@@ -105,15 +105,19 @@ sudo yum -y update && sudo yum install -y \
 You should keep a copy of the `generated-docs` directory for the life of the server.
 
 Check message similar to this:
+```
 "Server setup is complete. The `racknerd-eeab58.html` instructions file in the generated-docs folder is ready to give to friends, family members, and fellow activists. Press Enter to continue."
+```
 
 Go to generated-docs folder and see how to login:
-   cd generated-docs
+```
+cd generated-docs
    cat racknerd-eeab58.html
 (or similar) and check at the bottom:
    https://your-server-ip
    username: streisand
    password: phrase.with.several.words
+```
 
 Now login on this your site and check all shadowsocks connections instructions.
 
