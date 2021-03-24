@@ -111,7 +111,7 @@ Check message similar to this:
 
 Go to generated-docs folder and see how to login:
 ```
-cd generated-docs
+   cd generated-docs
    cat racknerd-eeab58.html
 (or similar) and check at the bottom:
    https://your-server-ip
