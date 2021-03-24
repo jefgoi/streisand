@@ -41,6 +41,7 @@ If you'd like to use an SSH key with a different name or from a non-standard loc
 
   * **Please note**: You will need these keys to access your Streisand instance over SSH. Please keep `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub` for the lifetime of the Streisand server.
 
+WRITE DOWN THE KEYS!!! Or you wouldn't be able to ssh anymore!
 
 ## Bootstrap ##
 
@@ -106,6 +107,14 @@ You should keep a copy of the `generated-docs` directory for the life of the ser
 Check message similar to this:
 "Server setup is complete. The `racknerd-eeab58.html` instructions file in the generated-docs folder is ready to give to friends, family members, and fellow activists. Press Enter to continue."
 
-Go to generated-docs folder 
+Go to generated-docs folder and see how to login:
+   cd generated-docs
+   cat racknerd-eeab58.html
+(or similar) and check at the bottom:
+   https://your-server-ip
+   username: streisand
+   password: phrase.with.several.words
+
+Now login on this your site and check all shadowsocks connections instructions.
 
 Remember to save your `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub` SSH keys too. You'll need them in case you want to troubleshoot or perform maintenance on your server later.
