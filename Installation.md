@@ -19,6 +19,13 @@ The Streisand builder requires a Linux, macOS, or BSD system.
 
 Complete all of these tasks on your local machine. All of the commands should be run inside a command-line session.
 
+### updage the system ###
+Ubuntu:
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
+
 ### SSH key
 
 Make sure an SSH public key is present in `~/.ssh/id_rsa.pub`.
@@ -41,7 +48,8 @@ If you'd like to use an SSH key with a different name or from a non-standard loc
 
   * **Please note**: You will need these keys to access your Streisand instance over SSH. Please keep `~/.ssh/id_rsa` and `~/.ssh/id_rsa.pub` for the lifetime of the Streisand server.
 
-WRITE DOWN THE KEYS!!! Or you wouldn't be able to ssh anymore!
+# WRITE DOWN THE KEYS!!! Or you wouldn't be able to ssh anymore! #
+
 
 ## Bootstrap ##
 
